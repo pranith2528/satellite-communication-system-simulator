@@ -18,6 +18,6 @@ plt.title("Distribution of Random Bits")
 plt.xlabel("Bit Value")
 plt.ylabel("Count")
 plt.grid(axis='y')
-plt.show()
+
 plt.savefig("results/random_bits_distribution.png", dpi=300)
 plt.show()
