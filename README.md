@@ -2,46 +2,63 @@
 
 ## Overview
 
-This repository contains a digital communication system simulator developed as part of my preparation for a Master's in Satellite Signal Processing.
+This project simulates various concepts used in modern satellite and wireless communication systems.
 
-The objective is to understand and implement digital communication techniques from first principles using MATLAB and Python.
+## Features
 
----
+- Random Bit Generation
+- BPSK Modulation and Demodulation
+- QPSK Modulation and Demodulation
+- AWGN Channel Simulation
+- Rayleigh Fading Channel
+- BER Calculation
+- BER vs SNR Analysis
+- OFDM Simulation
+- Satellite Link Budget Calculation
 
-## Project Goals
+## Technologies Used
 
-- Learn Digital Communication Systems
-- Implement BPSK and QPSK
-- Model an AWGN Channel
-- Calculate BER
-- Visualize Signal Constellations
-- Build a professional engineering portfolio
-
----
-
-## Technologies
-
-- MATLAB
 - Python
+- NumPy
+- Matplotlib
 - Git
 - GitHub
 
----
+## Project Structure
 
-## Development Roadmap
+```text
+python/
+├── random_bits/
+├── bpsk/
+├── qpsk/
+├── channel/
+├── ofdm/
+├── satellite/
+└── simulation/
+```
 
-- [ ] Version 1.0 - BPSK Communication System
-- [ ] Version 2.0 - QPSK Communication System
-- [ ] Version 3.0 - Channel Models
-- [ ] Version 4.0 - Satellite Link Budget
-- [ ] Version 5.0 - OFDM Communication
+## Results
 
----
+- BER vs SNR Graph
+- BPSK Waveform
+- QPSK Constellation
+- Rayleigh Fading Plot
+- OFDM Signal Plot
+- Satellite Link Budget Output
+
+## Future Enhancements
+
+- 16-QAM
+- 64-QAM
+- Rician Fading
+- Adaptive Modulation
+- GUI Development
+- SDR Integration
 
 ## Author
 
-Suddulam Pranith Reddy
+Pranith Reddy
 
-B.Tech Electronics and Communication Engineering
+## License
 
-Preparing for MSc in Satellite Signal Processing
+This project is licensed under the MIT License.
